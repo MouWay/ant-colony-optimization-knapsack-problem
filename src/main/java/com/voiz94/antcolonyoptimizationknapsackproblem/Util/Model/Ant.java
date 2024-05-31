@@ -20,7 +20,7 @@ public class Ant {
 
     public void addItem(int index, Item item) {
         solution.set(index, true);
-        totalWeight += item.weight;
-        totalValue += item.value;
+        totalWeight += item.getWeight();
+        totalValue += item.getValue();
     }
 }
